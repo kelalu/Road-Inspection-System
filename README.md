@@ -1,4 +1,11 @@
-# -
-[道路智能巡检管理平台系统架构设计文档_11.7.md](https://github.com/kelalu/Road-Inspection-System/blob/c9f13821f7554f8cb504afe647ed97cfbf39dde2/docs/%E9%81%93%E8%B7%AF%E6%99%BA%E8%83%BD%E5%B7%A1%E6%A3%80%E7%AE%A1%E7%90%86%E5%B9%B3%E5%8F%B0%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3_11.7.md)的图一是内嵌图片的格式，在github的预览中不显示。
+# 道路智能巡检管理平台
 
-[道路智能巡检管理平台系统架构设计文档_11.7_图片.md](https://github.com/kelalu/Road-Inspection-System/blob/1d0f9abf2d0c9c1eb172fc417066acabebb8d983/docs/%E9%81%93%E8%B7%AF%E6%99%BA%E8%83%BD%E5%B7%A1%E6%A3%80%E7%AE%A1%E7%90%86%E5%B9%B3%E5%8F%B0%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3_11.7_%E5%9B%BE%E7%89%87.md)的图一采用的相对路径，可以在github中的预览显示图片，其他内容一样。（PS：此文档下载到本地的时候需要同时下载images文件夹，并把此文档和images文件夹放到同一目录下）
+当前架构设计文档为 **V1.7，修订日期2026年11月9日**。本次修订明确首期独立IPC、K230原始视频转发与AI结果分离传输，以及手机/平板独立App；补充时间对齐、故障降级、访问授权和原型验收要求。
+
+两份文档均提供可点击目录，正文内容一致，文件名沿用原路径：
+
+- [设计文档（配图版，推荐在GitHub阅读）](docs/道路智能巡检管理平台系统架构设计文档_11.7_图片.md)：图一使用相对路径；下载时需同时保留同目录下的`images`文件夹。
+- [设计文档（图片内嵌版）](docs/道路智能巡检管理平台系统架构设计文档_11.7.md)：图一以内嵌Base64保存，适用于支持该格式的本地Markdown阅读器；GitHub预览不显示内嵌图一。
+- [总体架构图PNG](docs/images/system-architecture.png)及[可编辑SVG源文件](docs/images/system-architecture.svg)。
+
+RTMPS上行、HTTPS-FLV播放、App媒体SDK及IPC/K230联合运行仍须完成原型联调；文档中的初始参数与预算估价按批准基线和实测、询价结果确认。
